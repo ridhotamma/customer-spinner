@@ -43,8 +43,30 @@ const SpinnerPage: React.FC = () => {
             prizeNumber={prizeNumber}
             data={data}
             onStopSpinning={handleStopSpinning}
+            outerBorderColor={'#ccc'}
+            outerBorderWidth={9}
+            innerBorderColor={'#f2f2f2'}
+            radiusLineColor={'tranparent'}
+            radiusLineWidth={1}
+            textColors={['#f5f5f5']}
+            textDistance={55}
+            fontSize={10}
+            backgroundColors={[
+              '#3f297e',
+              '#175fa9',
+              '#169ed8',
+              '#239b63',
+              '#64b031',
+              '#efe61f',
+              '#f7a416',
+              '#e6471d',
+              '#dc0936',
+              '#e5177b',
+              '#be1180',
+              '#871f7f',
+            ]}
           />
-          <button className='px-8 py-2 bg-slate-300' onClick={handleSpinClick}>
+          <button className='px-8 py-2 bg-blue-800 text-white rounded-md' onClick={handleSpinClick}>
             SPIN
           </button>
 

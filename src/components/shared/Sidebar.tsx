@@ -27,15 +27,6 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => (
           className='block px-4 py-2 hover:bg-gray-600'
           onClick={toggleSidebar}
         >
-          Home
-        </Link>
-      </li>
-      <li>
-        <Link
-          to='/spinner'
-          className='block px-4 py-2 hover:bg-gray-600'
-          onClick={toggleSidebar}
-        >
           Spinner
         </Link>
       </li>
